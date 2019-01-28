@@ -7,7 +7,7 @@ Instead of an interactive PHP CLI (`CMD ["php", "-a"]`), this image runs `cron` 
 
 This repository uses [Namoshek/docker-php-mssql](https://github.com/Namoshek/docker-php-mssql) as base.
 
-# Usage
+## Usage
 
 You can pull one of the images with `docker pull namoshek/php-mssql-cron:<tag>`.
 To run a container with an image, you can also use `docker run namoshek/php-mssql-cron:<tag>` directly.
@@ -17,7 +17,7 @@ The format of the crontab file should look like this:
 * * * * *   root    /usr/local/bin/php /var/www/test.php
 ```
 
-# Available Versions
+## Available Versions
 
 For the moment, the primary goal of this repository is to support the following configurations:
 
@@ -28,14 +28,14 @@ For the moment, the primary goal of this repository is to support the following 
 The exact versions can vary from build to build.
 To see a list of all available tags, please have a look at the [Docker Hub image page](https://hub.docker.com/r/namoshek/php-mssql-cron).
 
-# Configuration
+## Configuration
 
 To change the PHP configuration, have a look at [the official PHP Docker image repository](https://hub.docker.com/_/php/).
 
-# Contributing
+## Contributing
 
 If you want to contribute the sources for other PHP versions, I'll appreciate it. Please send a pull request.
 
-# License
+## License
 
 The code is licensed under the [MIT license](LICENSE).
